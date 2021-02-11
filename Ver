@@ -1,1 +1,10 @@
-ver = 0.2
+ver = 0.1
+
+if ver ~= 0.1 then
+	warn("OutDated")
+	VER.Text = "You are using a OutDated verison of Roblox S."
+else
+	print("updated verison")
+end
+print("Complete")
+	
